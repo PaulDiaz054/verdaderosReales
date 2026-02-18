@@ -1,16 +1,151 @@
-# React + Vite
+# 👑 Verdaderos Reales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un juego multijugador interactivo donde los jugadores compiten por demostrar qué tan bien conocen al "Lider". Perfecto para fiestas, reuniones familiares o para conocerse mejor entre amigos.
 
-Currently, two official plugins are available:
+![Versión](https://img.shields.io/badge/versión-1.0.0-blue.svg)
+![Licencia](https://img.shields.io/badge/licencia-MIT-green.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Tabla de Contenidos
 
-## React Compiler
+- [¿Qué es Verdaderos Reales?](#-qué-es-verdaderos-reales)
+- [Características](#-características)
+- [Tecnologías](#-tecnologías)
+- [Como Jugar](#-cómo-jugar)
+- [Licencia](#-licencia)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎮 ¿Qué es verdaderos-reales?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Verdaderos Reales** es un juego de preguntas y respuestas multijugador donde:
+
+- **1 jugador es el "Lider"**: La persona sobre quien trata el juego
+- **Los demás son "Conocidos"**: Compiten respondiendo preguntas sobre el Lider
+- **El Lider valida**: Decide si las respuestas son correctas o no
+- **Gana el primero en llegar a 5 puntos**: ¡El que mejor conoce al Lider!
+
+---
+
+## ✨ Características
+
+### 🎯 Dos Modos de Juego
+
+- **Partidas Rapidas**: 15 preguntas predefinidas listas para jugar
+  - "¿Cuál es su color favorito?"
+  - "¿Prefiere playa o montaña?"
+  - "¿Le gusta el café?"
+  - Y más...
+
+- **Preguntas Personalizadas**: El Lider crea sus propias preguntas
+  - Preguntas de opción múltiple
+  - Preguntas de verdadero/falso
+  - Preguntas de respuesta libre
+
+### 🎲 Mecánicas de Juego
+
+- ✅ **Orden aleatorio**: Las preguntas se mezclan cada partida
+- ✅ **Multijugador local**: Múltiples jugadores en diferentes dispositivos
+- ✅ **Actualización en tiempo real**: Los cambios se sincronizan cada 2 segundos
+- ✅ **Sistema de puntuación**: Primer Conocido en llegar a 10 puntos gana
+- ✅ **Validación del Lider**: Solo el Lider decide qué respuestas son correctas
+- ✅ **Transiciones automáticas**: El juego fluye sin necesidad de botones extra
+
+---
+
+## 🛠 Tecnologías
+
+Este proyecto está construido con:
+
+- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white) - Librería de JavaScript para interfaces de usuario
+- ![Vite](https://img.shields.io/badge/-Vite-9135FF?style=flat&logo=vite&logoColor=white) - Build tool ultrarrápido
+- ![Tailwindcss](https://img.shields.io/badge/-TailindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) - Framework de CSS utility-first
+- ![Lucide](https://img.shields.io/badge/-Lucide-F56565?style=flat&logo=lucide&logoColor=white) - Iconos modernos y ligeros
+- **localStorage API** - Almacenamiento local del navegador para persistencia
+
+---
+
+## 🎯 Cómo Jugar
+
+### Crear una Sala (Como Lider)
+
+1. **Ingresa tu nombre**
+2. **Elige un modo**:
+   - "Partida Rapida (Preguntas Genéricas)" → Juego rápido
+   - "Partida Personalizada (Preguntas Personalizadas)" → Crea tus preguntas
+4. **Comparte el código de sala** con los demás jugadores (ej: "A3B7F2")
+5. **Espera** a que los Conocidos se unan
+6. **Presiona "Iniciar Juego"** cuando todos estén listos
+
+### Unirse a una Sala (Como Conocido)
+
+1. **Ingresa tu nombre**
+2. **Escribe el código de sala** que te dio el Lider
+3. **Presiona "Unirse como Conocido"**
+4. **Espera** a que el Lider inicie el juego
+5. **¡Responde las preguntas!**
+
+### Durante el Juego
+
+**Como Conocido:**
+- Lee cada pregunta sobre el Lider
+- Selecciona o escribe tu respuesta
+- Espera a que el Lider valide
+- ¡Acumula puntos!
+
+**Como Lider:**
+- Ve las respuestas de todos los Conocidos
+- Marca cada respuesta como correcta (✓) o incorrecta (✗)
+- El juego avanza automáticamente a la siguiente pregunta
+- ¡Descubre quién te conoce mejor!
+
+### Ganar el Juego
+
+- El **primer Conocido en llegar a 10 puntos** gana
+- Se muestra la tabla de clasificación final
+- Puedes volver al menú para jugar otra ronda
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+### MIT License
+
+```
+Copyright (c) 2024 Verdaderos Reales
+
+Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
+de este software y archivos de documentación asociados (el "Software"), para usar
+el Software sin restricciones, incluyendo sin limitación los derechos de usar,
+copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias
+del Software, y permitir a las personas a quienes se les proporcione el Software
+hacer lo mismo, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas
+las copias o porciones sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD,
+IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS
+AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN,
+DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O
+DE OTRO MODO, QUE SURJA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U
+OTROS TRATOS EN EL SOFTWARE.
+```
+
+---
+
+## 👨‍💻 Autor
+
+Creado para aprender React y pasar un buen rato con amigos y familia.
+
+---
+
+<div align="center">
+
+### ¡Diviértete jugando! 🎮👑
+
+**[⬆ Volver arriba](#-verdaderos-reales)**
+
+</div>
