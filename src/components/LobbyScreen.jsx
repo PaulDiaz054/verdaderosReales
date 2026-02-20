@@ -2,7 +2,7 @@ import { Crown, Users, Play } from "lucide-react";
 
 const LobbyScreen = ({ roomCode, playerRole, currentRoom, startGame }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 p-4">
+    <div className="min-h-screen p-4">
       <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl p-6">
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">

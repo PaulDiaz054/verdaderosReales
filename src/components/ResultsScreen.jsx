@@ -13,7 +13,7 @@ const ResultsScreen = ({ currentRoom, resetGame }) => {
   const winner = sortedScores[0];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 p-4 flex items-center justify-center">
+    <div className="min-h-screen p-4 flex items-center justify-center">
       <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full">
         <div className="text-center mb-8">
           <Trophy className="w-24 h-24 mx-auto mb-4 text-yellow-500" />

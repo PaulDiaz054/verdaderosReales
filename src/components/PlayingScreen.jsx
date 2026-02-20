@@ -22,7 +22,7 @@ const PlayingScreen = ({
 
   if (playerRole === "king") {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 p-4">
+      <div className="min-h-screen p-4">
         <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl p-6">
           <div className="mb-6">
             <div className="flex justify-between items-center mb-4">

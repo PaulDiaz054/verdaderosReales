@@ -10,7 +10,7 @@ const MenuScreen = ({
   loading,
 }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 p-4 flex items-center justify-center">
+    <div className="min-h-screen p-4 flex items-center justify-center">
       <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full">
         <div className="text-center mb-8">
           <Crown className="w-20 h-20 mx-auto mb-4 text-yellow-500" />
