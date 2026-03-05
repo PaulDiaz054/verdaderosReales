@@ -3,7 +3,6 @@ import { setCors, parseRoom } from "./_helpers.js";
 
 const redis = Redis.fromEnv();
 
-// Idempotente: reemplaza si ya existe respuesta para el mismo aspirante
 const ANSWER_SCRIPT = `
 local key         = KEYS[1]
 local aspirantId  = ARGV[1]

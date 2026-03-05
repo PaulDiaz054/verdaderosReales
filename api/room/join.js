@@ -3,7 +3,6 @@ import { setCors, parseRoom } from "./_helpers.js";
 
 const redis = Redis.fromEnv();
 
-// Atómico vía Lua: evita race conditions al unirse simultáneamente
 const JOIN_SCRIPT = `
 local key   = KEYS[1]
 local name  = ARGV[1]

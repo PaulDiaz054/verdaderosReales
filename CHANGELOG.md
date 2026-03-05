@@ -10,6 +10,12 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/).
 
 ---
 
+## [1.1.3] - 2026-03-05
+### Añadido
+- Instrucciones para el rey.
+
+---
+
 ## [1.1.2] - 2026-03-05
 ### Añadido
 - Se añadio la duración de la partida en la pantalla de resultados.

@@ -16,7 +16,6 @@ export default async function handler(req, res) {
   if (req.method === "GET") {
     const value = await redis.get(key);
     if (value === null) return res.status(404).json({ error: "Key not found" });
-    // Redis a veces devuelve el objeto ya parseado, normalizamos a string
     const valueStr = typeof value === "string" ? value : JSON.stringify(value);
     return res.status(200).json({ key, value: valueStr });
   }
@@ -24,7 +23,6 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     const { value } = req.body;
     if (value === undefined) return res.status(400).json({ error: "Value is required" });
-    // Guardamos siempre como string para evitar que Redis parsee automáticamente
     const valueStr = typeof value === "string" ? value : JSON.stringify(value);
     await redis.set(key, valueStr, { ex: 86400 });
     return res.status(200).json({ key, value: valueStr });

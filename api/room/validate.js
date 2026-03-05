@@ -77,7 +77,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Missing fields" });
 
   const key = `room_${roomCode.toUpperCase()}`;
-  const now = new Date().toISOString(); // timestamp de fin generado en Node.js
+  const now = new Date().toISOString();
 
   try {
     const result = await redis.eval(

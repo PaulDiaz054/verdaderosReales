@@ -26,7 +26,6 @@ a:hover {
 
 body {
   margin: 0;
-  /* ✅ Eliminado: display:flex y place-items:center que centraban y encogían el contenido */
   min-width: 320px;
   min-height: 100vh;
   width: 100%;

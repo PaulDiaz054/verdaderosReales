@@ -1,6 +1,3 @@
-// api/storage/index.js
-// Lista claves con prefijo opcional
-
 import { Redis } from "@upstash/redis";
 
 const redis = Redis.fromEnv();

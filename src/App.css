@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 #root {
-  /* ✅ Eliminado: max-width, margin auto y padding que limitaban el ancho */
   width: 100%;
   text-align: center;
 }

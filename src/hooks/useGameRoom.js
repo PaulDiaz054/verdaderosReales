@@ -11,7 +11,7 @@ const BASE_URL = import.meta.env.VITE_SERVER_URL
   ? `${import.meta.env.VITE_SERVER_URL}/api/room`
   : "/api/room";
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
+// ─── Auxiliares ──────────────────────────────────────────────────────────────────
 
 function shuffleArray(array) {
   const out = [...array];
@@ -124,9 +124,9 @@ export default function useGameRoom() {
       status: "waiting",
       scores: {},
       answers: {},
-      createdAt: new Date().toISOString(), // fecha y hora de creación
-      startedAt: null, // se asigna al iniciar el juego
-      finishedAt: null, // se asigna al terminar el juego
+      createdAt: new Date().toISOString(),
+      startedAt: null,
+      finishedAt: null,
     };
 
     try {
@@ -167,7 +167,7 @@ export default function useGameRoom() {
       const room = {
         ...currentRoom,
         status: "answering",
-        startedAt: new Date().toISOString(), // fecha y hora de inicio
+        startedAt: new Date().toISOString(),
       };
       await storage.set(`room_${roomCode}`, JSON.stringify(room));
       setCurrentRoom(room);

@@ -5,10 +5,7 @@ export default function AdBanner({ slot = "bottom", className = "" }) {
       aria-label="Espacio publicitario"
     >
       {/*
-        ── REEMPLAZA ESTE BLOQUE CON TU PROVEEDOR DE ADS ──────────────────
-        Google AdSense:  <ins className="adsbygoogle" ...>
-        Meta Audience:   <div id="fb-ad-container" ...>
-        ───────────────────────────────────────────────────────────────────
+        codigo de publicidad
       */}
       <span className="text-xs text-gray-400 font-medium tracking-widest select-none uppercase">
         Publicidad
