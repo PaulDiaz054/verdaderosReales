@@ -281,7 +281,12 @@
       "id": 53,
       "text": "¿Cual es su forma favorita para comunicarse?",
       "type": "multiple",
-      "options": ["Redes sociales", "Llamadas", "Mensajes de texto", "En persona"]
+      "options": [
+        "Redes sociales",
+        "Llamadas",
+        "Mensajes de texto",
+        "En persona"
+      ]
     },
     {
       "id": 54,
@@ -526,6 +531,543 @@
       "id": 99,
       "text": "¿Se considera una persona aventurera?",
       "type": "boolean"
+    },
+    {
+      "id": 100,
+      "text": "¿Cuál es su animal favorito?",
+      "type": "text"
+    },
+    {
+      "id": 101,
+      "text": "¿Prefiere ducha o baño de tina?",
+      "type": "multiple",
+      "options": ["Ducha", "Baño de tina"]
+    },
+    {
+      "id": 102,
+      "text": "¿Le gusta leer el horóscopo?",
+      "type": "boolean"
+    },
+    {
+      "id": 103,
+      "text": "¿Cuál es su signo zodiacal?",
+      "type": "text"
+    },
+    {
+      "id": 104,
+      "text": "¿Prefiere WhatsApp, Instagram, TikTok o Twitter?",
+      "type": "multiple",
+      "options": ["WhatsApp", "Instagram", "TikTok", "Twitter/X"]
+    },
+    {
+      "id": 105,
+      "text": "¿Se considera buena para dar consejos?",
+      "type": "boolean"
+    },
+    {
+      "id": 106,
+      "text": "¿Cuál es su película de animación favorita?",
+      "type": "text"
+    },
+    {
+      "id": 107,
+      "text": "¿Prefiere pedir disculpas o esperar a que se calmen las cosas?",
+      "type": "multiple",
+      "options": ["Pedir disculpas enseguida", "Esperar", "Depende de la situación"]
+    },
+    {
+      "id": 108,
+      "text": "¿Le gusta la jardinería?",
+      "type": "boolean"
+    },
+    {
+      "id": 109,
+      "text": "¿Cuál es su marca de zapatillas favorita?",
+      "type": "text"
+    },
+    {
+      "id": 110,
+      "text": "¿Prefiere música en vivo o en streaming?",
+      "type": "multiple",
+      "options": ["En vivo", "Streaming", "Ambas"]
+    },
+    {
+      "id": 111,
+      "text": "¿Se considera una persona chismosa?",
+      "type": "boolean"
+    },
+    {
+      "id": 112,
+      "text": "¿Cuál es su comida callejera favorita?",
+      "type": "text"
+    },
+    {
+      "id": 113,
+      "text": "¿Prefiere trabajar desde casa o en oficina?",
+      "type": "multiple",
+      "options": ["Desde casa", "En oficina", "Híbrido"]
+    },
+    {
+      "id": 114,
+      "text": "¿Le gustan las películas de terror?",
+      "type": "boolean"
+    },
+    {
+      "id": 115,
+      "text": "¿Cuál es su podcast favorito?",
+      "type": "text"
+    },
+    {
+      "id": 116,
+      "text": "¿Prefiere levantarse temprano o trasnochar?",
+      "type": "multiple",
+      "options": ["Levantarse temprano", "Trasnochar"]
+    },
+    {
+      "id": 117,
+      "text": "¿Se considera una persona celosa?",
+      "type": "boolean"
+    },
+    {
+      "id": 118,
+      "text": "¿Cuál es su marca de carro favorita?",
+      "type": "text"
+    },
+    {
+      "id": 119,
+      "text": "¿Prefiere vacaciones de aventura o de relax?",
+      "type": "multiple",
+      "options": ["Aventura", "Relax", "Mezcla de ambas"]
+    },
+    {
+      "id": 120,
+      "text": "¿Le gusta ver documentales?",
+      "type": "boolean"
+    },
+    {
+      "id": 121,
+      "text": "¿Cuál es su youtuber o creador de contenido favorito?",
+      "type": "text"
+    },
+    {
+      "id": 122,
+      "text": "¿Prefiere comer en casa o en restaurante?",
+      "type": "multiple",
+      "options": ["En casa", "En restaurante", "Le da igual"]
+    },
+    {
+      "id": 123,
+      "text": "¿Se considera una persona dramática?",
+      "type": "boolean"
+    },
+    {
+      "id": 124,
+      "text": "¿Cuál es su instrumento musical favorito?",
+      "type": "text"
+    },
+    {
+      "id": 125,
+      "text": "¿Prefiere vacaciones cortas y frecuentes o una larga al año?",
+      "type": "multiple",
+      "options": ["Cortas y frecuentes", "Una larga al año"]
+    },
+    {
+      "id": 126,
+      "text": "¿Le gustan los tatuajes?",
+      "type": "boolean"
+    },
+    {
+      "id": 127,
+      "text": "¿Cuál es su superhéroe favorito?",
+      "type": "text"
+    },
+    {
+      "id": 128,
+      "text": "¿Cuál es su emoji favorito?",
+      "type": "text"
+    },
+    {
+      "id": 129,
+      "text": "¿Se considera una persona introvertida?",
+      "type": "boolean"
+    },
+    {
+      "id": 130,
+      "text": "¿Cuál es su artista de música favorito?",
+      "type": "text"
+    },
+    {
+      "id": 131,
+      "text": "¿Prefiere usar redes sociales o salir al mundo real?",
+      "type": "multiple",
+      "options": ["Redes sociales", "Mundo real", "Un balance"]
+    },
+    {
+      "id": 132,
+      "text": "¿Le gusta meditar?",
+      "type": "boolean"
+    },
+    {
+      "id": 133,
+      "text": "¿Cuál es su mayor virtud?",
+      "type": "text"
+    },
+    {
+      "id": 134,
+      "text": "¿Prefiere series cortas o largas?",
+      "type": "multiple",
+      "options": [
+        "Cortas (1-2 temporadas)",
+        "Largas (+3 temporadas)",
+        "Le da igual"
+      ]
+    },
+    {
+      "id": 135,
+      "text": "¿Se considera una persona muy competitiva?",
+      "type": "boolean"
+    },
+    {
+      "id": 136,
+      "text": "¿Cuál es su mayor logro en la vida hasta ahora?",
+      "type": "text"
+    },
+    {
+      "id": 137,
+      "text": "¿Prefiere ir a museos o a parques de diversiones?",
+      "type": "multiple",
+      "options": ["Museos", "Parques de diversiones", "Ninguno"]
+    },
+    {
+      "id": 138,
+      "text": "¿Le gusta hacer senderismo?",
+      "type": "boolean"
+    },
+    {
+      "id": 139,
+      "text": "¿Cuál es su tipo de música para estudiar o trabajar?",
+      "type": "text"
+    },
+    {
+      "id": 140,
+      "text": "¿Prefiere pedir ayuda o resolver los problemas solo?",
+      "type": "multiple",
+      "options": ["Pedir ayuda", "Resolverlos solo", "Depende del problema"]
+    },
+    {
+      "id": 141,
+      "text": "¿Le gustan los cruceros?",
+      "type": "boolean"
+    },
+    {
+      "id": 142,
+      "text": "¿Cuál es su aperitivo o entrada favorita?",
+      "type": "text"
+    },
+    {
+      "id": 143,
+      "text": "¿Prefiere cumpleaños sorpresa o planificado?",
+      "type": "multiple",
+      "options": ["Sorpresa", "Planificado", "Sin celebración"]
+    },
+    {
+      "id": 144,
+      "text": "¿Se considera una persona rencorosa?",
+      "type": "boolean"
+    },
+    {
+      "id": 145,
+      "text": "¿Cuál es su programa de televisión favorito de la infancia?",
+      "type": "text"
+    },
+    {
+      "id": 146,
+      "text": "¿Prefiere almohada dura o suave?",
+      "type": "multiple",
+      "options": ["Dura", "Suave", "Mediana"]
+    },
+    {
+      "id": 147,
+      "text": "¿Le gusta el sushi?",
+      "type": "boolean"
+    },
+    {
+      "id": 148,
+      "text": "¿Cuál es su fobia más rara?",
+      "type": "text"
+    },
+    {
+      "id": 149,
+      "text": "¿Prefiere tener muchos amigos o pocos pero muy cercanos?",
+      "type": "multiple",
+      "options": ["Muchos amigos", "Pocos pero cercanos"]
+    },
+    {
+      "id": 150,
+      "text": "¿Le gusta hacer puzzles o rompecabezas?",
+      "type": "boolean"
+    },
+    {
+      "id": 151,
+      "text": "¿Cuál es su marca de tecnología favorita?",
+      "type": "text"
+    },
+    {
+      "id": 152,
+      "text": "¿Prefiere recibir o dar regalos?",
+      "type": "multiple",
+      "options": ["Recibir", "Dar", "Ambos por igual"]
+    },
+    {
+      "id": 153,
+      "text": "¿Se considera una persona muy perfeccionista?",
+      "type": "boolean"
+    },
+    {
+      "id": 154,
+      "text": "¿Cuál es su snack favorito para ver películas?",
+      "type": "text"
+    },
+    {
+      "id": 155,
+      "text": "¿Prefiere viajar en avión, tren o carro?",
+      "type": "multiple",
+      "options": ["Avión", "Tren", "Carro"]
+    },
+    {
+      "id": 156,
+      "text": "¿Le da vergüenza llorar en público?",
+      "type": "boolean"
+    },
+    {
+      "id": 157,
+      "text": "¿Cuál es su tipo de ejercicio favorito?",
+      "type": "text"
+    },
+    {
+      "id": 158,
+      "text": "¿Prefiere aprender algo nuevo o perfeccionar lo que ya sabe?",
+      "type": "multiple",
+      "options": ["Aprender algo nuevo", "Perfeccionar lo que sabe", "Ambos"]
+    },
+    {
+      "id": 159,
+      "text": "¿Le gusta la astrología?",
+      "type": "boolean"
+    },
+    {
+      "id": 160,
+      "text": "¿Cuál es su palabra o expresión favorita?",
+      "type": "text"
+    },
+    {
+      "id": 161,
+      "text": "¿Prefiere reuniones grandes o pequeñas?",
+      "type": "multiple",
+      "options": ["Grandes", "Pequeñas", "Le da igual"]
+    },
+    {
+      "id": 162,
+      "text": "¿Se considera una persona muy curiosa?",
+      "type": "boolean"
+    },
+    {
+      "id": 163,
+      "text": "¿Cuál es su mayor debilidad?",
+      "type": "text"
+    },
+    {
+      "id": 164,
+      "text": "¿Prefiere contenido gracioso o reflexivo en redes?",
+      "type": "multiple",
+      "options": ["Gracioso", "Reflexivo", "Ambos"]
+    },
+    {
+      "id": 165,
+      "text": "¿Le gusta ir al spa?",
+      "type": "boolean"
+    },
+    {
+      "id": 166,
+      "text": "¿Prefiere piscina, río o mar?",
+      "type": "multiple",
+      "options": ["Piscina", "Río", "Mar", "Le da igual"]
+    },
+    {
+      "id": 167,
+      "text": "¿Prefiere tomar decisiones rápido o pensarlo mucho?",
+      "type": "multiple",
+      "options": ["Rápido", "Pensarlo mucho", "Depende de la decisión"]
+    },
+    {
+      "id": 168,
+      "text": "¿Le gusta el karaoke?",
+      "type": "boolean"
+    },
+    {
+      "id": 169,
+      "text": "¿Cuál es el color que más odia?",
+      "type": "text"
+    },
+    {
+      "id": 170,
+      "text": "¿Prefiere ser el líder o seguir a alguien?",
+      "type": "multiple",
+      "options": ["Ser el líder", "Seguir a alguien", "Depende de la situación"]
+    },
+    {
+      "id": 171,
+      "text": "¿Le gusta el anime?",
+      "type": "boolean"
+    },
+    {
+      "id": 172,
+      "text": "¿Cuál es su personaje de ficción favorito?",
+      "type": "text"
+    },
+    {
+      "id": 173,
+      "text": "¿Prefiere pedir perdón o que le pidan perdón primero?",
+      "type": "multiple",
+      "options": ["Pedir perdón", "Esperar que le pidan", "Depende"]
+    },
+    {
+      "id": 174,
+      "text": "¿Se considera una persona muy sentimental?",
+      "type": "boolean"
+    },
+    {
+      "id": 175,
+      "text": "¿Cuál es su ritual antes de dormir?",
+      "type": "text"
+    },
+    {
+      "id": 176,
+      "text": "¿Prefiere pasar el tiempo libre solo o acompañado?",
+      "type": "multiple",
+      "options": ["Solo", "Acompañado", "Un mix"]
+    },
+    {
+      "id": 177,
+      "text": "¿Le interesa la política?",
+      "type": "boolean"
+    },
+    {
+      "id": 178,
+      "text": "¿Cuál es su frase o dicho favorito?",
+      "type": "text"
+    },
+    {
+      "id": 179,
+      "text": "¿Prefiere ir de vacaciones en el extranjero o en su propio país?",
+      "type": "multiple",
+      "options": ["En el extranjero", "En su país", "Le da igual"]
+    },
+    {
+      "id": 180,
+      "text": "¿Se considera una persona muy honesta?",
+      "type": "boolean"
+    },
+    {
+      "id": 181,
+      "text": "¿Cuál es su actividad favorita en un día lluvioso?",
+      "type": "text"
+    },
+    {
+      "id": 182,
+      "text": "¿Prefiere tener muchas opciones o pocas para decidir?",
+      "type": "multiple",
+      "options": ["Muchas opciones", "Pocas opciones"]
+    },
+    {
+      "id": 183,
+      "text": "¿Le gusta el maquillaje?",
+      "type": "boolean"
+    },
+    {
+      "id": 184,
+      "text": "¿Cuál es su tradición familiar favorita?",
+      "type": "text"
+    },
+    {
+      "id": 185,
+      "text": "¿Prefiere comprar ropa en tienda física o en línea?",
+      "type": "multiple",
+      "options": ["Tienda física", "En línea", "Le da igual"]
+    },
+    {
+      "id": 186,
+      "text": "¿Se considera una persona muy habladora?",
+      "type": "boolean"
+    },
+    {
+      "id": 187,
+      "text": "¿Cuál es su profesión deseada?",
+      "type": "text"
+    },
+    {
+      "id": 188,
+      "text": "¿Prefiere ganar poco en algo que ama o ganar mucho en algo que no le gusta?",
+      "type": "multiple",
+      "options": ["Poco en algo que ama", "Mucho en algo que no le gusta"]
+    },
+    {
+      "id": 189,
+      "text": "¿Le gustaria hacer voluntariado?",
+      "type": "boolean"
+    },
+    {
+      "id": 190,
+      "text": "¿Cuál es su receta favorita para cocinar?",
+      "type": "text"
+    },
+    {
+      "id": 191,
+      "text": "¿Prefiere ser famoso o rico?",
+      "type": "multiple",
+      "options": ["Famoso", "Rico", "Ambos", "Ninguno"]
+    },
+    {
+      "id": 192,
+      "text": "¿Se considera una persona agradecida?",
+      "type": "boolean"
+    },
+    {
+      "id": 193,
+      "text": "¿Cuál es su mayor sueño en la vida?",
+      "type": "text"
+    },
+    {
+      "id": 194,
+      "text": "¿Prefiere la fantasía o la ciencia ficción?",
+      "type": "multiple",
+      "options": ["Fantasía", "Ciencia ficción", "Ambas", "Ninguna"]
+    },
+    {
+      "id": 195,
+      "text": "¿Le gusta dormir siesta?",
+      "type": "boolean"
+    },
+    {
+      "id": 196,
+      "text": "¿Cuál es su villano favorito de película o serie?",
+      "type": "text"
+    },
+    {
+      "id": 197,
+      "text": "¿Prefiere dar una segunda oportunidad o cortar por lo sano?",
+      "type": "multiple",
+      "options": ["Segunda oportunidad", "Cortar por lo sano", "Depende"]
+    },
+    {
+      "id": 198,
+      "text": "¿Le gusta la astronomía?",
+      "type": "boolean"
+    },
+    {
+      "id": 199,
+      "text": "¿Cuál es su momento favorito del día?",
+      "type": "text"
     }
   ]
 }
